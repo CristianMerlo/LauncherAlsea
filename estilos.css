@@ -1,3 +1,7 @@
+header {
+  padding-left: 80px; /* Agrega 20px de espacio en blanco a la izquierda del encabezado */
+}
+
 #enlaces {
 	width: 950px;
 	margin: 0 auto;
@@ -85,11 +89,13 @@ font-family: 'Short Stack', cursive;
   }
   #iconos {
     position: fixed;
-    top: 0;
+    top: 50%;
     right: 0;
+    transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-  }
+    align-items: center;
+}
   
   #iconos a {
     display: block;
@@ -103,10 +109,11 @@ font-family: 'Short Stack', cursive;
   }
   #google-tools {
     position: fixed;
-    bottom: 0;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   
   #google-tools a {
@@ -115,10 +122,11 @@ font-family: 'Short Stack', cursive;
   }
   
   #google-tools img {
-    max-width: 40px; /* Ajusta este valor según el tamaño deseado de los iconos */
+    max-width: 40px;
     width: 100%;
     height: auto;
   }
+  
   .icon {
     transition: filter 0.3s ease;
   }
