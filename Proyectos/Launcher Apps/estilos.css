@@ -1,0 +1,86 @@
+#enlaces {
+	width: 950px;
+	margin: 0 auto;
+}
+
+#enlaces ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+#enlaces li {
+	width: 160px;
+	height: 30px;
+	margin: 10px;
+	padding: 20px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	text-align: center;
+	box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+	float: left;
+	clear: none;
+}
+
+#enlaces a {
+	display: block;
+	font-size: 16px;
+	line-height: 1.2;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+#enlaces a:hover {
+	color: rgb(34, 238, 7); /* Cambia el color del texto a rojo */
+  font-size: 1.5em; /* Aumenta el tamaño de fuente en un 10% */
+}
+
+body {
+    background-image: url("Images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    color: lightsteelblue;
+  }
+
+  body {
+    font-family: 'Delicious Handrawn', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Short Stack', cursive;
+  }
+
+  @media only screen and (max-width: 600px) {
+    /* Reglas CSS para pantallas con ancho máximo de 600px */
+    #enlaces ul {
+      column-count: 1;
+    }
+  
+    #enlaces li {
+      font-size: 0.8em;
+      line-height: 1.5;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) {
+    /* Reglas CSS para pantallas con ancho mínimo de 601px */
+    #enlaces ul {
+      column-count: 2;
+    }
+  
+    #enlaces li {
+      font-size: 1em;
+      line-height: 1.8;
+    }
+  }
+  footer {
+    text-align: center; /* centra el texto */
+    color: #666; /* color gris oscuro */
+    margin-top: 20px; /* espacio entre el contenido y el footer */
+  }
+  
