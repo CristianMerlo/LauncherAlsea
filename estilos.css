@@ -108,7 +108,7 @@ font-family: 'Short Stack', cursive;
   }
   #google-tools {
     position: fixed;
-    top: 50%;
+    top: 70%;
     transform: translateY(-90%);
     left: 0;
     display: flex;
