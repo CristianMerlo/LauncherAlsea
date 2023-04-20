@@ -83,10 +83,11 @@ font-family: 'Short Stack', cursive;
     }
   }
   footer {
-    text-align: center; /* centra el texto */
-    color: #666; /* color gris oscuro */
-    margin-top: 20px; /* espacio entre el contenido y el footer */
+    text-align: center;
+    color: rgba(102, 102, 102, 0.2); /* Establecer el valor RGBA para el color de la fuente */
+    margin-top: 20px;
   }
+
   #iconos {
     position: fixed;
     top: 50%;
