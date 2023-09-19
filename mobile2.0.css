@@ -1,0 +1,33 @@
+/* Reset de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Usando REM y EM */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 1rem;  
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+/* Flexbox */
+.enlaces {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.enlaces li {
+  flex-basis: 30%;
+}
+
+/* Media Queries */
+@media (max-width: 600px) {
+  .enlaces li {
+    flex-basis: 100%; 
+  }
+}
